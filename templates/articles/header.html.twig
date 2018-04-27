@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Template</title>
+</head>
+
+</html>
+
+<body>
+    {%include('/inc/navbar.html.twig')%} {%block stylesheets %}
+    <link rel="stylesheet" href="/css/contenu.css" />
+    <link rel="stylesheet" href="/css/footer.css" /> {%endblock%}
+
+    <div class="container contenu">
+        <div class="img"></div>
+        <div class="presentation">
+            <div class="action">
+                <p>je suis une phrase &nbsp; to</p>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, accusamus.</p>
+            </div>
+            <div class="action">
+                <a class="btn btn-dark">Update</a>
+                <a class="btn btn-dark">Delete</a>
+            </div>
+        </div>
+    </div>
+
+    {%include('/inc/footer.html.twig')%}
+</body>
+
+</html>

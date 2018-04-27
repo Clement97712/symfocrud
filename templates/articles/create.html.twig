@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/bothaction.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet" />
+    <title>Create Article</title>
+</head>
+
+<body>
+    {%include('/inc/navbar.html.twig')%}
+
+    <div class="container">
+        <h2 class="sentence">Create</h2>
+    </div>
+    <div class="form-group container">
+        {{form_start(form)}} {{form_widget(form)}} {{form_end(form)}}
+    </div>
+    </div>
+
+    {%include('/inc/footer.html.twig')%}
+</body>
+
+</html>
